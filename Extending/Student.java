@@ -1,6 +1,6 @@
 public class Student extends Person{
     private int studentNumber;
-    public Student(){ 
+    public Student(){
         super(); studentNumber = 0;
     }
     public Student(String initialName, int initialStudentNumber){
