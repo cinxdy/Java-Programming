@@ -6,7 +6,7 @@ public class Rectangle implements Measurable{
     myHeight = height;
   }
   public String getName(){
-    return Rectangle.class.getName();
+    return Rectangle.class.getSimpleName();
   }
   public double getPerimeter(){
     return 2 *(myWidth + myHeight);

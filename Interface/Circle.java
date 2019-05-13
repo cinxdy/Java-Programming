@@ -4,7 +4,7 @@ public class Circle implements Measurable{
     myRadius = radius;
   }
   public String getName(){
-    return Circle.class.getName();
+    return Circle.class.getSimpleName();
   }
   public double getPerimeter(){
     return 2 * Math.PI*myRadius;
