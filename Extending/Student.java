@@ -1,6 +1,6 @@
 public class Student extends Person{
     private int studentNumber;
-    public Student(){
+    public Student(){ 
         super(); studentNumber = 0;
     }
     public Student(String initialName, int initialStudentNumber){
@@ -23,4 +23,8 @@ public class Student extends Person{
         return this.hasSameName(otherStudent) &&
         (this.studentNumber == otherStudent.studentNumber);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ad380cebb513f7652e40f90d05545a12f5a60dd5
